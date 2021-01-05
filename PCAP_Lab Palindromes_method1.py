@@ -25,6 +25,6 @@ revtext=''
 for i in range (1,len(string)+1):
     revtext+=string[-i]
 if string == revtext:
-    print( 'it\'s a palindromes')
+    print( 'it\'s a palindrome')
 else:
-    print('it\'s not a palindromes')
+    print('it\'s not a palindrome')
