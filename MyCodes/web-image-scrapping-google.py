@@ -132,3 +132,9 @@ def download_images(image_urls, folder):
 ║  📁 Saved to  : {folder:<17}  ║
 ╚════════════════════════════════════╝
    """ )
+  
+if __name__ =="__main__":
+  keywords = ' villahe leflaye' # Specify your own keyword to perform your desired  web search of images
+  max_images = 10 # modify according to your needs
+  urls = get_images_urls(keywords , max_images)
+  download_images(urls)
