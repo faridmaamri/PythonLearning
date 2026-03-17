@@ -1,5 +1,5 @@
 # this code is used to diagnose the code of the above function (get_images_url) to see why it does not return any url
-# this code must be run after running the fucntion  diagnose-HTML reponse-response.py
+# this code must be run after running the fucntion  diagnose-HTML_reponse-response.py
 def inspect_html():
     with open("debug_response.html", "r",
               encoding="utf-8") as f:
